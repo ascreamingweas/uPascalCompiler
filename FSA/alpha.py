@@ -1,5 +1,7 @@
-import regex
 import re
+import sys
+sys.path.insert(0, '../')
+import regex
 import tokens
 
 state = 1
