@@ -13,7 +13,7 @@ def main():
     Scanner = scanner.Scanner()
     newfile = Scanner.openFile(fname)
     lines = newfile.readlines()
-    Scanner.getTokens(lines)
+    Scanner.dispatcher(lines)
 
 
 if __name__ == "__main__":
